@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>
+        {% block title %}
+          
+        
+          
+        {% endblock  %}  
+      
+    </title>
+</head>
+<body>
+    <h1> Sitio web Creado por Caceres Reymond   </h1>
+
+    <hr/>
+    <ul>
+        <li>
+           
+            <a href="/inicio">INICIO</a>
+           
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="/pagina">PAGINA</a>
+        </li>
+    </ul>
+<hr/>
+    <div class="content">
+        {% block content %}
+        
+        
+        
+        {% endblock  %}
+    </div>
+<hr/>
+    <footer>
+            Creado por Reymond Caceres
+    </footer>
+    
+</body>
+
+
+
+
+</html>
